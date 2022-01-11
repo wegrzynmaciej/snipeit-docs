@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="generate.php" method="post" target="_blank">
+        <label></label><input type="radio" name="type" id="type" value=1 checked>Odbiór</label>
+        <label></label><input type="radio" name="type" id="type" value=0>Zwrot</label>
+        <br>
+        <label for="assetid">Asset tag(s):</label>
+        <br>
+        <textarea name="assetid" id="assetid" rows="20"></textarea>
+        <br><input type="submit" value="Generate">
+    </form>
+</body>
+</html>
